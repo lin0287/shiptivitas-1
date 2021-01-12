@@ -45,7 +45,7 @@ class App extends Component {
   }
 
   changeTab(tabName) {
-    this.setState({
+    this.setState({ //Sets currently selected tab to TabName
       selectedTab: tabName,
     });
   }

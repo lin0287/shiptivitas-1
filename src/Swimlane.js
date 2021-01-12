@@ -5,6 +5,7 @@ import './Swimlane.css';
 export default class Swimlane extends React.Component {
   render() {
     const cards = this.props.clients.map(client => {
+      // Props pass information to other components
       return (
         <Card
           key={client.id}
